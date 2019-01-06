@@ -6,6 +6,8 @@ The default MySQL adapter supports row locking using pessimistic lock, however i
 
 ## Usage
 
+    composer require pollus/session-database-handler
+
 Create the following table on your database:
 
 ```sql
